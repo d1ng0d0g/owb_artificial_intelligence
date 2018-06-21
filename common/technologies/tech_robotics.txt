@@ -35,58 +35,58 @@ technologies = {
     #-------------------------------
     # Robotics
     #-------------------------------
-    artificial_brain = {
-    	enable_equipments = {
-    		artificial_brains_1
-    	}
-    path = {
-    	leads_to_tech = commercial_protectron
-    	research_cost_coeff = 1
-   		}
-   	dependencies = {
-   		settled_civilization = 1
-   	}
-
-   	research_cost = 2.2
-   	start_year = 2275
-   	folder = {
-   		name = fallout_robotics_folder
-   		position = { x = @ Row_1 y = @Col_2 }
-   	}
-
-   	categories = {
-   		robotics_tech
-   		armor
-   	}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 2
-			is_major = yes
+     artificial_brain = {
+        enable_equipments = {
+            artificial_brain_equipment
+        }
+        dependencies = {
+            settled_civilization = 1
+        }
+        
+		research_cost = 2.2
+		start_year = 2275
+		folder = {
+			name = fallout_robotics_folder
+			position = { x = @Row_1 y = @Col_2 }
 		}
-		modifier = {
-			factor = 0.1
-			tag = NCR
+		
+		categories = {
+			robotics_tech
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
 			}
-		modifier = {
-			factor = 0.1
-			tag = CES
-		}
-		modifier = {
-			factor = 1.2
-			date > "2276.1.1"
+			modifier = {
+				factor = 0.1
+				tag = NCR
 			}
-		modifier = {
-			factor = 1.2
-			date > "2277.1.1"
-		}
-		modifier = {
-			factor = 1.2
-			date > "2278.1.1"
+			modifier = {
+				factor = 0.1
+				tag = CES
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2276.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2277.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2278.1.1"
+			}
 		}
 	}
-}
-
 
     commercial_protectron = {
         enable_equipments = {

@@ -1,7 +1,10 @@
 equipments = {
 	artificial_brain_equipment = {
+		year = 1934
 		is_archetype = yes
 		is_buildable = yes
+		is_convertable = no
+		picture = archetype_heavy_robot_equipment
 		type = armor
 		group_by = archetype
 
