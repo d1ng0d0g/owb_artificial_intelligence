@@ -1,0 +1,45 @@
+technologies = {
+
+     artificial_brain = {
+        enable_equipments = {
+            artificial_brain_equipment
+        }
+
+		categories = {
+			robotics_tech
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 0.1
+				tag = NCR
+			}
+			modifier = {
+				factor = 0.1
+				tag = CES
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2276.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2277.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2278.1.1"
+			}
+		}
+	}
+}
