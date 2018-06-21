@@ -1,0 +1,23 @@
+equipments = {
+	artificial_brain_equipment = {
+		is_archetype = yes
+		is_buildable = yes
+		type = armor
+		group_by = archetype
+
+		interface_category = interface_category_armor
+
+		lend_lease_cost = 10
+		build_cost_ic = 10
+
+		defense = 4
+		soft-attack = 10
+		
+		resources = {
+			electronics = 1
+			electricity = 1
+			advanced_technology = 1
+			metal = 1
+		}
+	}
+}
