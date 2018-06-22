@@ -1,7 +1,7 @@
 equipments = {
 	artificial_brain_equipment = {
 		is_archetype = yes
-		picture = archetype_heavy_robot_equipment
+		picture = artificial_brain
 		is_buildable = no
 		is_convertable = no
 		

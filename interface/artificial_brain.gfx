@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_artificial_brain_medium"
+		name = "GFX_artificial_brain_equipment_medium"
 		texturefile = "gfx/interface/technologies/age_of_the_machine.dds"
 	}
 }
