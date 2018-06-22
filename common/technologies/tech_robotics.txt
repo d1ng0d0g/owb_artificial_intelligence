@@ -38,7 +38,7 @@ technologies = {
     commercial_protectron = {
         enable_equipments = {
             light_robot_equipment_1
-            artificial_brain_equipment
+            artificial_brain_equipment_1
         }
 	enable_subunits = {
             light_robot

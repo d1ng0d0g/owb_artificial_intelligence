@@ -1,16 +1,19 @@
 equipments = {
 	artificial_brain_equipment = {
-		year = 1934
 		is_archetype = yes
-		is_buildable = yes
-		is_convertable = no
 		picture = archetype_heavy_robot_equipment
+		is_buildable = no
+		is_convertable = no
+		
 		type = armor
 		group_by = archetype
 
 		interface_category = interface_category_armor
 
+		reliability = 0.9
+
 		lend_lease_cost = 10
+
 		build_cost_ic = 10
 
 		defense = 4
@@ -22,5 +25,9 @@ equipments = {
 			advanced_technology = 1
 			metal = 1
 		}
+	}
+	artificial_brain_equipment_1 = {
+		archetype = artificial_brain_equipment
+		priority = 20
 	}
 }
