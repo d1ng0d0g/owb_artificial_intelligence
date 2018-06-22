@@ -50,7 +50,7 @@ equipments = {
 		
 		archetype = light_robot_equipment
 		parent = light_robot_equipment
-		priority = 10
+		priority = 30
 		visual_level = 0
 		is_convertable = yes
 	}
